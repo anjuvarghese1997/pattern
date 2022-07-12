@@ -1,0 +1,45 @@
+<div class="mycalc">
+    <!-- <input type="text"> -->
+    <div class="maindisplay">
+        <div class="subdisplay">{{ subDisplayText }}</div>
+        {{ mainDisplayText }}
+      </div>
+    <div class="all-btn">
+        <div class="">
+            <button (click)="press('1')"  class="numbers">1</button>
+            <button (click)="press('2')"  class="numbers">2</button>
+            <button (click)="press('3')" class="numbers">3</button>
+            <button (click)="press('+')" class="operators">+</button>
+        </div>    
+        <button  (click)="press('4')" class="numbers">4</button>
+        <button (click)="press('5')" class="numbers">5</button>
+        <button (click)="press('6')" class="numbers">6</button>
+        <button (click)="press('-')" class="operators">-</button>
+        <div class=" ">
+            
+            <button (click)="press('7')" class="numbers">7</button>
+            <button (click)="press('8')" class="numbers">8</button>
+            <button (click)="press('9')" class="numbers">9</button>
+            <button (click)="press('x')" class="operators">x</button>
+            
+        </div>
+        
+        <div class="">
+            <button (click)="press('B')" class="numbers">B</button>
+            <button (click)="press('0')" class="numbers">0</button>
+            
+            <button (click)="clear()" class="numbers">C</button>
+            <button (click)="ans()" class="operators">=</button>
+        </div>
+        
+        
+            
+            
+            
+            
+        
+        
+           
+       
+    </div>
+</div>
